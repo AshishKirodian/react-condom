@@ -2,6 +2,8 @@
 
 # dependencies
 /node_modules
+/lib
+.vscode
 *-lock.json
 # testing
 /coverage
@@ -10,6 +12,7 @@
 /build
 *.zip
 *.7z
+
 
 # misc
 .DS_Store
