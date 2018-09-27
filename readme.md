@@ -4,9 +4,12 @@ React Condom is a protective layer around your raw, unprotected components. In a
 
 Usage : 
 ```React
-<ReactCondom ruleSet={['rule1', 'rule2']} rule='rule1' fallBack={<div>Access Denied</div>}>
+import ReactCondom from 'react-condom';
+var ruleSet = ['rule1', 'rule2'];
+var componentRule = 'rule1';
+<ReactCondom ruleSet={ruleSet} rule=componentRule fallBack={<div>Access Denied</div>}>
     <div>
-    Paid Component
+        Paid Component
     </div>
 <ReactCondom>
 ```
