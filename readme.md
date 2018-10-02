@@ -2,6 +2,8 @@
 
 React Condom is a protective layer around your raw, unprotected components. In a claims based authentication system, a user typically has his own claims and the component can have a rule. This currently is a one to one string equality check. If the rule in a component is available within the rule set (Claims) of the user, the component renders whatever is inside, else it falls back to the fallback component. 
 
+[a link](https://medium.com/@ashishkirodian/reactcondom-a-protective-layer-to-your-react-components-d98b08fbd5c7)
+
 Usage : 
 ```React
 import ReactCondom from 'react-condom';
