@@ -1,6 +1,6 @@
 {
     "name": "react-condom",
-    "version": "1.0.18",
+    "version": "1.0.19",
     "description": "React Condom Component for npm",
     "main": "./lib/react-condom.js",
     "license": "MIT",
