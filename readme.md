@@ -7,7 +7,7 @@ Usage :
 import ReactCondom from 'react-condom';
 var ruleSet = ['rule1', 'rule2'];
 var componentRule = 'rule1';
-<ReactCondom ruleSet={ruleSet} rule=componentRule fallBack={<div>Access Denied</div>}>
+<ReactCondom ruleSet={ruleSet} rule={componentRule} fallBack={<div>Access Denied</div>}>
     <div>
         Paid Component
     </div>
